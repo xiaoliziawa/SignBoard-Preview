@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.prizowo.signboardpreview.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "signboardpreview.refmap.json",
+  "mixins": [
+    "SignBlockEntityMixin",
+    "DisplayAccessor.BlockDisplayMixin",
+    "DisplayAccessor.DisplayEntityMixin",
+    "DisplayAccessor.TextDisplayMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
