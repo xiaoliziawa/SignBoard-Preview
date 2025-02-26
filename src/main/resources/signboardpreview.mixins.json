@@ -5,12 +5,10 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "signboardpreview.refmap.json",
   "mixins": [
-    "SignBlockEntityMixin",
-    "DisplayAccessor.BlockDisplayMixin",
-    "DisplayAccessor.DisplayEntityMixin",
-    "DisplayAccessor.TextDisplayMixin"
   ],
   "client": [
+    "client.HangingSignRendererMixin",
+    "client.SignRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
